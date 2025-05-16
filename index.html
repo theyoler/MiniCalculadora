@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script src="app.js"></script>
+    <div class="container">
+        <div id="Calculadora" class="Calculadora">
+            <div name="Calculadora" id="Numeros" style="height: 120px; width: 370px; resize: none; background-color: #556B2F; border-radius: 7px; display: flex; position: relative; font-size: 20px;">
+                <span id="textNumber"></span>
+                <div style="position: absolute; height: 50px; width: 100px; bottom: 0; right: 0; font-size: 20px;">
+                    <span id="Respuestas" style="position: absolute; bottom: 0; right: 0;"></span>
+                </div>
+            </div>
+            <div id="buttons" class="buttons" style="gap: 10px;">
+                <button style="height: 40px; width: 60px; margin: 5px; font-size: 20px;" onclick="Button9()">9</button><button style="height: 40px; width: 60px; margin: 5px; font-size: 20px;" onclick="Button8()">8</button><button style="height: 40px; width: 60px; margin: 5px; font-size: 20px;" onclick="Button7()">7</button><button style="height: 40px; width: 60px; margin: 5px; font-size: 20px;"onclick="ButtonDelete()">DEL</button><button style="height: 40px; width: 60px; margin: 5px; font-size: 20px;"onclick="ButtonAC()">AC</button><button style="height: 40px; width: 60px; margin: 5px; font-size: 20px;" onclick="Button6()">6</button><button style="height: 40px; width: 60px; margin: 5px; font-size: 20px;"onclick="Button5()">5</button><button style="height: 40px; width: 60px; margin: 5px; font-size: 20px;"onclick="Button4()">4</button><button style="height: 40px; width: 60px; margin: 5px; font-size: 20px;"onclick="ButtonSubstraction()">-</button><button style="height: 40px; width: 60px; margin: 5px; font-size: 20px;"onclick="ButtonDivision()">/</button><button style="height: 40px; width: 60px; margin: 5px; font-size: 20px;" onclick="Button3()">3</button><button style="height: 40px; width: 60px; margin: 5px; font-size: 20px;" onclick="Button2()">2</button><button style="height: 40px; width: 60px; margin: 5px; font-size: 20px;" onclick="Button1()">1</button><button style="height: 40px; width: 60px; margin: 5px; font-size: 20px;" onclick="ButtonAddition()">+</button><button style="height: 40px; width: 60px; margin: 5px; font-size: 20px;" onclick="ButtonMultiplication()">*</button><button style="height: 40px; width: 60px; margin: 5px; font-size: 20px;"onclick="ButtonElevation()">^</button><button style="height: 40px; width: 60px; margin: 5px; font-size: 20px;" onclick="Button0()">0</button><button style="height: 40px; width: 60px; margin: 5px; font-size: 20px;"onclick="ButtonPI()">𝞹</button><button style="height: 40px; width: 60px; margin: 5px; font-size: 20px;"onclick="ButtonE()">e</button><button style="height: 40px; width: 60px; margin: 5px; font-size: 20px;" onclick="ButtonEquals()">=</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
